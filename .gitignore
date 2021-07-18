@@ -1,0 +1,14 @@
+# Ignore specific files
+Debug/*
+
+# Ignore everything
+# *
+
+# But not these files...
+# !*.ioc
+# !*.c
+# !*.h
+
+# ...even if they are in subdirectories
+# !*/
+/Debug/
